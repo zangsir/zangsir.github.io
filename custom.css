@@ -1,0 +1,25 @@
+/* remove rounding from cards, buttons and inputs */
+.card, .btn, .form-control { border-radius: 35; }
+
+/*
+https://uxplanet.org/how-to-customize-bootstrap-b8078a011203
+https://bootstrapcreative.com/bootstrap-text-sizes/
+*/
+
+h4,.h4 {
+margin-bottom: 0.5rem;
+font-family: ‘Oswald’, sans-serif;
+font-weight: 500;
+line-height: 1.2;
+color: inherit;
+font-size: 30px;
+}
+ 
+h5,.h5 {
+margin-bottom: 0.5rem;
+font-family: ‘Oswald’, sans-serif;
+font-weight: 500;
+line-height: 1.2;
+color: inherit;
+font-size: 22px;
+}
