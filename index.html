@@ -1,111 +1,220 @@
-<!DOCTYPE html>
-<html lang="en">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>Shuo Zhang</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/">
+
     
-<head>
-  <title>Shuo Zhang</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="custom.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-  h1 {
-  font-size: 60px;
-  
-}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-h2 {
-  font-size: 40px;
-}
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
 
-p {
-  font-size: 20px;
-    font-weight: 200;
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
 
-}
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
 
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
 
-  </style>
-</head>
-<body>
-<p>&nbsp;</p>
-<div class="container">
-<div class="row">
-<div class="col-sm-2"><img class="rounded-circle" src="s4.png" width="110" height="110" /></div>
-<div class="col-sm-10">
-    <br>
-<h1>Shuo Zhang</h1>
-</div>
-</div>
-<br /><!-- Nav tabs -->
-<ul class="nav nav-tabs" role="tablist" style="font-size:25px;" >
-<li class="nav-item"><a class="nav-link active" href="#home" data-toggle="tab"  >Home</a></li>
-<li class="nav-item"><a class="nav-link" href="#menu1" data-toggle="tab"  >Papers</a></li>
-<li class="nav-item"><a class="nav-link" href="#menu2" data-toggle="tab"  >Community</a></li>
-<li class="nav-item"><a class="nav-link" href="#menu3" data-toggle="tab"  >Projects</a></li>
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
 
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
 
-</ul>
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+
     
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+
     
-<!-- Tab panes -->
-<div class="tab-content">
-<div id="home" class="container tab-pane active"><br />
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Shuo Zhang</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="papers.html">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
 
-
-<p>I am a machine learning reseracher and engineer at <a href="https://www.bose.com/en_us/index.html" target="_blank" rel="noopener">Bose</a> Research, 
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container">
+    <h1 class="mt-5">Shuo Zhang</h1>
+      <p>I am a machine learning reseracher and engineer at <a href="https://www.bose.com/en_us/index.html" target="_blank" rel="noopener">Bose</a> Research, 
 where I work on research and development of NLP and audio applications. Previously I was a Collaborator and 
 Researcher at the&nbsp;<a href="https://www.upf.edu/web/mtg" target="_blank" rel="noopener">Music Technology Group</a>&nbsp;(MTG), Universitat Pompeu Fabra, 
 Barcelona, Spain. I received my Ph.D from Georgetown University[<a href="http://people.cs.georgetown.edu/nschneid/GUCL/" target="_blank" rel="noopener">GUCL Group</a>,&nbsp;<a href="https://corpling.uis.georgetown.edu/corpling/index.html" target="_blank" rel="noopener">CorpLing Lab</a>] with a 
 focus on Computational Linguistics. My research interest includes machine learning and deep 
 learning for audio (speech, music, environmental audio understanding), natural language processing (NLP), speech prosody,
 and computational musicology.</p>
-
-
-
-
-
-
-
+  </div>
     
-<a class="btn btn-success" role="button" href="pdfs/resume.pdf" style="font-size:20px">CV <i class="fas fa-bookmark"></i></a> 
-<a href="mailto:zangsir@gmail.com" target="_blank" class="btn btn-warning" style="font-size:20px">email <i class="far fa-address-card"></i></a>
-<a class="btn btn-info" role="button" href="https://soundcloud.com/shuo-zhang-1" style="font-size:20px">music <i class="fas fa-cloud"></i>
-</a> 
-<a class="btn btn-danger" role="button" href="https://www.linkedin.com/in/shuo-zhang-ba942a14/" style="font-size:20px">LinkedIn <i class="fas fa-coffee"></i>
-</a> 
     
-
-</div>
-
-
-<div id="menu1" class="container tab-pane fade"><br />
+    <div class="container" ><br />
 <h4>Recent Publications</h4>
-<div style="font-weight:200">
+<div >
 <p>
     
-    <strong>Tornike Karchkhadze, Hassan Salami Kavaki, Mohammad Rasool Izadi, Bryce Irvin, Mikolaj Kegler, Ari Hertz, Shuo Zhang, Marko Stamenovic.</strong> Latent CLAP Loss for Better Foley Sound Synthesis. [<a href="https://arxiv.org/abs/2403.12182">preprint</a>] (2024)<br /><br />
+    Tornike Karchkhadze, Hassan Salami Kavaki, Mohammad Rasool Izadi, Bryce Irvin, Mikolaj Kegler, Ari Hertz, Shuo Zhang, Marko Stamenovic. Latent CLAP Loss for Better Foley Sound Synthesis. [<a href="https://arxiv.org/abs/2403.12182">preprint</a>] (2024)
 
+    <br><br>
+    Mohammad Rasool Izadi, Yujia Yan, Shuo Zhang, Robert Stevenson. Towards Optimal Voice Disentanglement With Weak Supervision. Proc. ICASSP 2024.[<a href="https://ieeexplore.ieee.org/document/10447670">IEEE Explore</a>]<br /><br />
     
-    <strong>Mohammad Rasool Izadi, Yujia Yan, Shuo Zhang, Robert Stevenson</strong>. Towards Optimal Voice Disentanglement With Weak Supervision. Proc. ICASSP 2024.[<a href="https://ieeexplore.ieee.org/document/10447670">IEEE Explore</a>]<br /><br />
-    
-<strong>Bryce Irvin, Sile Yin, Shuo Zhang, Marko Stamenovic</strong>.A Fullband Neural Network For Audio Packet Loss Concealment. Proc. ICASSP 2024.  <br /><br />
+<strong>Bryce Irvin, Sile Yin, Shuo Zhang, Marko Stamenovic</strong>.A Fullband Neural Network For Audio Packet Loss Concealment. Proc. ICASSP 2024.  
     
 <strong>J. Williams, T. Azim, A. -M. Piskopani, A. Chamberlain and S. Zhang</strong>. "Socio-Technical Trust For Multi-Modal Hearing Assistive Technology," 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSPW59220.2023.10193586. [<a href="https://ieeexplore.ieee.org/document/10193586">IEEE Explore</a>]
-<br /><br />
+
 
 
 
 <strong>N Shashaank, Berker Banar, Mohammad Rasool Izadi, Jeremy Kemmerer, Shuo Zhang, Chuan-Che (Jeff)Huang </strong>. HiSSNet: Sound Event Detection and Speaker Identification via Hierarchical Prototypical Networks for Low-Resource Headphones. Proceedings of the ICASSP 2023, Rhodes Island, Greece. [<a href="https://arxiv.org/abs/2303.07538">arXiv</a>][<a href="https://ieeexplore.ieee.org/document/10094788">IEEE Explore</a>]
-    <br /> <br/>
+   
 
 
 <strong>Alnajjar,K,  Hämäläinen,M,  Zhang,S</strong>. Ring That Bell: A Corpus and Method for Multimodal Metaphor Detection in Videos. Proceedings of the Third Workshop on Figurative Language Processing (FigLang) at EMNLP 2022. [<a href="https://researchportal.helsinki.fi/en/publications/ring-that-bell-a-corpus-and-method-for-multimodal-metaphor-detect">U of Helsinki</a>]
@@ -137,211 +246,17 @@ and computational musicology.</p>
     <strong>Zhang, S</strong>,&nbsp;<strong>Caro, R, Serra,X,</strong>. Study of the similarity between linguistic tones and&nbsp;melodic pitch contours in Beijing Opera singing.<a href="http://dblp.uni-trier.de/db/conf/ismir/ismir2014.html" target="_blank" rel="noopener">&nbsp;<em>Proceedings of The 15th International Society for Music Information Retrieval (ISMIR) Conference</em>, pp.345-348</a>. Taiwan, October, 27-31 2014. [<a href="uploads/3/1/3/8/3138983/shuozhang-ismir-justified.pdf" target="_blank" rel="noopener">pdf final version</a>][<a href="http://mtg.upf.edu/node/3018" target="_blank" rel="noopener">mtg</a>]<br /><br />
 </div>
 </div>
-
-
-<div id="menu4" class="container tab-pane fade"><br />
-<h4>Published(3)</h4>
-<p    >
-2022 - <a href="https://patentimages.storage.googleapis.com/25/a7/7d/9960b60d13113c/WO2022066393A1.pdf">Hearing augmentation and wearable system with localized feedback(Bose)</a>
-<br>
-2021 - <a href="https://patentimages.storage.googleapis.com/eb/9b/4b/18aa8c4332988e/US10929099.pdf">Spatialized virtual personal assistent (Bose) </a>
-<br>
-2020 - <a href="https://patentimages.storage.googleapis.com/09/79/05/328f5dbee363b7/US20200278831A1.pdf">Systems and methods for augmented reality content harvesting and information extraction (Bose)</a>
-
-<h4>Filed pending(3) </h4>
-</div>
-
-
-<div id="menu2" class="container tab-pane fade"><br />
-<h4>Recent invited talks, teaching, conference tutorials</h4>
-<p style="font-weight:200"><i>
-    Tufts University, University of Washington, Spotify,
-    <a href="https://sites.google.com/view/nlp4musa/invited-speakers?authuser=0" >NLP4MusA Workshop @ ISMIR 2020 </a>,
-    <a href="https://festival.aiacceleratorinstitute.com/talks/natural-language-processing-for-music-information-technology/">Artificial Intelligence Festival by AI Accelerator Institute </a>
-
-    AI Accelerator Summit Boston 2019, Global AI Conference Boston 2019,
-    <a href="https://www.re-work.co/events/deep-learning-summit-boston-2019/speakers/shuo-zhang">RE:WORK Deep Learning Summit Boston </a>,    
-    <a href="https://wp.nyu.edu/ismir2016/event/tutorials/#nlp">NLP in MIR tutorial at ISMIR 16 NYC</a>,
-    
-    Peking University, Tsinghua University, Fudan University, Communication University of China, Ningbo University, China Academy of Social Sciences, Shanghai Conservatory, China Conservatory, Central Conservatory, Tencent, Douban, Dolby Labs, etc.</i> </p>
-    
-<h4>Invited peer reviews and professional services (NLP, MIR, audio signal processing)</h4>
-
-
-    <h5><b>Program committee member / reviewer</b></h5>
-    <h5><u>Journals</u></h5>
- <p style="font-weight:200"   >
-     <i>EURASIP Journal on Audio, Speech, and Music Processing<br>Glossa<br> 
-</i></p>
-
-    <h5><u>Conference proceedings</u></h5>
-<p  style="font-weight:200"  ><i>
-EUSIPCO, ICASSP, ISMIR, DCASE, ACM-Multimedia, IEEE-MMSP, WASPPA, NLP4MusA, ACL, NAACL, COLM, EACL, EMNLP, ECNLP (Workshop), NLP4DH, etc.</i></p>
-
-
-    <h5><b>Services</b></h5>
-    <p  style="font-weight:200"  ><i> 
-
-    Co-Chair of Industrial Liaisons, <a href="https://dcase.community/workshop2021/organizers">DCASE Workshop (2021-2023)</a><br/>
-        </i><br>
-    </p>
     
     
-</div>
+    
+</main>
 
-
-
-<div id="menu3" class="container tab-pane fade"><br />
-<h4>Open source projects contributions</h4>
-<p  ><i> click on a project name to learn more</i></p>
-
-<div id="accordion">
-    <div class="card">
-      <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne"  >
-          CompMusic Project <a class="btn btn-success" role="button" href="https://compmusic.upf.edu/node/1">website</a>
-        </a>
-      </div>
-      <div id="collapseOne" class="collapse" data-parent="#accordion">
-        <div class="card-body"><p    >
-            Computational Models for the discovery of world music. Funded by European Research Council, PI: Xavier Serra. Music Technology Group (MTG), Universitat Pompeu Fabra (UPF). Resulted in publications listed <a href="https://compmusic.upf.edu/publications">here</a>. Contribution: 2013-17.
-           </p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"  >
-        ANNIS  <a class="btn btn-success" role="button" href="http://corpus-tools.org/annis/">website</a>
-      </a>
-      </div>
-      <div id="collapseTwo" class="collapse" data-parent="#accordion">
-        <div class="card-body"><p    >
-          ANNIS is originally Annotation of Information Structure at Humboldt Universitat zu Berlin, Germany. It is a web application for search and visualization of linguistic corpora, funded by German Research Foundation (DFG), etc. Contribution: 2013-17. </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"  >
-          XRENNER <a class="btn btn-success" role="button" href="https://corpling.uis.georgetown.edu/xrenner/">website</a>
-        </a>
-      </div>
-      <div id="collapseThree" class="collapse" data-parent="#accordion">
-        <div class="card-body">
-            <p    >
-                XRENNER is eXternally configurable REference and Non Named Entity Recognizer, developed by Amir Zeldes with my contributions (see Zeldes and Zhang 2016 paper at CORBON workshop at NAACL 2016). See website for a live demo of coreference and entity resolution (including both non-named and named entities.) Contribution: 2015-16.
-                <br><br>
-                <i>Zeldes,A, Zhang, S. 2016. When Schemas Change Rules Help : A Configurable Approach to Coreference beyond OntoNotes. Proceedings of CORBON Workshop at NAACL 2016. </i>
-          </p>
-        </div>
-      </div>
-    </div>
-  
-  <div class="card">
-      <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour"  >
-          GitDOX <a class="btn btn-success" role="button" href="https://corpling.uis.georgetown.edu/gitdox/">website</a>
-            
-        </a>
-      </div>
-      
-      <div id="collapseFour" class="collapse" data-parent="#accordion">
-        <div class="card-body">
-            <p    >
-                Web application for collaborative annotation projects with version control using Gitbub as backend, funded by US National Endowments for the Humanities (NEH), etc., and part of Coptic Scriptorium. GitDox is on the list of <a href="https://github.com/keon/awesome-nlp#annotation-tools">awesome-nlp</a> tools starred by 10.1K developers on GitHub. Contribution: 2016. <br><br>
-                
-                <i>Zhang, S., Zeldes, A.  2017. GitDOX: A Linked Version Controlled Online XML Editor for Manuscript Transcription. Proceedings of FLAIRS30. </i>
-          </p>
-        </div>
-      </div>
-    </div>
+<footer class="footer mt-auto py-3 bg-body-tertiary">
+  <div class="container">
+    <span class="text-body-secondary">Place sticky footer content here.</span>
   </div>
+</footer>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-
-
-<br>
-<br>
-<h4>Open source data sets</h4>
-<div id="accordion">
-<div class="card">
-      <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#collapseJ1"  >
-          Annotated jingju arias dataset <a class="btn btn-success" role="button" href="https://zenodo.org/record/1285647#.Xf-q1RdKh25">website</a>
-        </a>
-      </div>
-      <div id="collapseJ1" class="collapse" data-parent="#accordion">
-        <div class="card-body"><p    >
-            Annotated syllabic level segmentation, phonetic, melodic and linguistic tone information for a set of arias in Beijing oepra under CompMusic Project. <br><br>
-            
-            <i>Zhang,S, Caro, R, Serra,X. 2015. Predicting pairwise pitch contour relations based on linguistic tone information in Beijing opera singing. Proc. of ISMIR 15.</i>
-            <br>
-            <br>
-            <i>Zhang, S, Caro, R, Serra,X,. 2014. Study of the similarity between linguistic tones and melodic pitch contours in Beijing Opera singing. Proc. ISMIR 14.</i>
-           </p>
-        </div>
-      </div>
-    </div>
-</div>
-
-<div class="card">
-      <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#collapseJ2"  >
-          Jingju lyrics dataset <a class="btn btn-success" role="button" href="https://zenodo.org/record/1285632#.Xf-r6BdKh25">website</a>
-        </a>
-      </div>
-      <div id="collapseJ2" class="collapse" data-parent="#accordion">
-        <div class="card-body"><p    >
-            Comprehensive collection of lyrics of arias acquired through crawling online jingju lyrics database xikao, under CompMusic Project. <br><br>
-            
-            <i>Zhang,S., Caro,R, Serra,X. 2017. Understanding the expressive functions of jingju metrical patterns through lyrics text mining. Proc. ISMIR 17.</i>
-           </p>
-        </div>
-      </div>
-    </div>
-
-    
-    <div class="card">
-      <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#collapseJ3"  >
-          ANNIS dataset <a class="btn btn-success" role="button" href="http://doi.org/10.5281/zenodo.3507129">website</a>
-        </a>
-      </div>
-      <div id="collapseJ3" class="collapse" data-parent="#accordion">
-        <div class="card-body"><p    >
-            ANNotation of Information Structure.
-            <br><br>
-            Thomas Krause; Weißenfels Benjamin; Tom R.; IrinaGlushanok; Martin Klotz; Shuo Zhang; Luke Gessler; Amir Zeldes; fab-bar; Stephan Druskat; adrianeboyd; egon w. stemle; Thomas N; Lari Lampen; Florian Petran (2019, October 18). korpling/ANNIS beta.3 (Version beta.3). Zenodo. http://doi.org/10.5281/zenodo.3507129
-           </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#collapseJ4"  >
-          Multimodal Metaphor Corpus <a class="btn btn-success" role="button" href="https://zenodo.org/record/7217991#.Y6mqpuzMJqt">website</a>
-        </a>
-      </div>
-      <div id="collapseJ4" class="collapse" data-parent="#accordion">
-        <div class="card-body"><p    >
-            Multimodal Metaphor Corpus (collaboration with University of Helsinki).
-            <br><br>
-            Alnajjar,K, Hämäläinen,M, Zhang,S. Ring That Bell: A Corpus and Method for Multimodal Metaphor Detection in Videos. Proceedings of the Third Workshop on Figurative Language Processing (FigLang) at EMNLP 2022. Zenodo. 
-           </p>
-        </div>
-      </div>
-    </div>
-
- <br><br>
-</div>
-
-    
-
-
-<br><br>
-</div>
-</div>
-</body>
+    </body>
 </html>
