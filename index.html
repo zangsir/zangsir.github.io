@@ -1,80 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
 <head>
   <title>Shuo Zhang</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-      /* Normal state */
-a {
-    color: lightgrey; /* Change the color */
-text-decoration: none;
-    text-decoration-style: none;}
-      
-            a:hover {
-  color: black;
-                                text-decoration:none;
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">    
+    <link rel="stylesheet" type="text/css" href="custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+  font-size: 60px;
+  
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+    font-weight: 200;
 
 }
 
 
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 100%}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      background-color: #f1f1f1;
-      height: 100%;
-        font-size:22px;
-    }
-      p{color:grey;font-size:22px;}
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 267px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-          
-      }
-      .row.content {height: auto;} 
-    }
   </style>
 </head>
 <body>
+<p>&nbsp;</p>
+<div class="container">
+<div class="row">
+<div class="col-sm-2"><img class="rounded-circle" src="s4.png" width="110" height="110" /></div>
+<div class="col-sm-10">
+    <br>
+<h1>Shuo Zhang</h1>
+</div>
+</div>
+<br /><!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist" style="font-size:25px;" >
+<li class="nav-item"><a class="nav-link active" href="#home" data-toggle="tab"  >Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#menu1" data-toggle="tab"  >Papers</a></li>
+<li class="nav-item"><a class="nav-link" href="#menu2" data-toggle="tab"  >Community</a></li>
+<li class="nav-item"><a class="nav-link" href="#menu3" data-toggle="tab"  >Projects</a></li>
 
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-      <h4>Shuo Zhang</h4>
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">Home</a></li>
-          <li><a href="research.html">Research</a></li>
-        <li><a href="contact.html">Contact</a></li>
-          
 
-      </ul><br>
+</ul>
+    
+    
+<!-- Tab panes -->
+<div class="tab-content">
+<div id="home" class="container tab-pane active"><br />
 
-    </div>
 
-    <div class="col-sm-9">
-      <h4><small>HOMEPAGE</small></h4>
-        <div class="media">
-    <div class="media-left">
-      <img src="s4.png" class="media-object" style="width:60px">
-    </div>
-    <div class="media-body">
-      <p>I am a machine learning reserach engineer at <a href="https://www.bose.com/en_us/index.html" target="_blank" rel="noopener">Bose</a> Research, where I currently lead a team conducting research in audio ML. Previously I was a Collaborator and 
+<p>I am a machine learning reseracher and engineer at <a href="https://www.bose.com/en_us/index.html" target="_blank" rel="noopener">Bose</a> Research, 
+where I work on research and development of NLP and audio applications. Previously I was a Collaborator and 
 Researcher at the&nbsp;<a href="https://www.upf.edu/web/mtg" target="_blank" rel="noopener">Music Technology Group</a>&nbsp;(MTG), Universitat Pompeu Fabra, 
-Barcelona, Spain. I received my Ph.D from Georgetown University [<a href="http://people.cs.georgetown.edu/nschneid/GUCL/" target="_blank" rel="noopener">GUCL Group</a>,&nbsp;<a href="https://corpling.uis.georgetown.edu/corpling/index.html" target="_blank" rel="noopener">CorpLing Lab</a>] with a 
+Barcelona, Spain. I received my Ph.D from Georgetown University[<a href="http://people.cs.georgetown.edu/nschneid/GUCL/" target="_blank" rel="noopener">GUCL Group</a>,&nbsp;<a href="https://corpling.uis.georgetown.edu/corpling/index.html" target="_blank" rel="noopener">CorpLing Lab</a>] with a 
 focus on Computational Linguistics. My research interest includes machine learning and deep 
 learning for audio (speech, music, environmental audio understanding), natural language processing (NLP), speech prosody,
 and computational musicology.</p>
@@ -264,10 +254,92 @@ EUSIPCO, ICASSP, ISMIR, DCASE, ACM-Multimedia, IEEE-MMSP, WASPPA, NLP4MusA, ACL,
           </p>
         </div>
       </div>
+    </div>
+  </div>
 
 
 
+<br>
+<br>
+<h4>Open source data sets</h4>
+<div id="accordion">
+<div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseJ1"  >
+          Annotated jingju arias dataset <a class="btn btn-success" role="button" href="https://zenodo.org/record/1285647#.Xf-q1RdKh25">website</a>
+        </a>
+      </div>
+      <div id="collapseJ1" class="collapse" data-parent="#accordion">
+        <div class="card-body"><p    >
+            Annotated syllabic level segmentation, phonetic, melodic and linguistic tone information for a set of arias in Beijing oepra under CompMusic Project. <br><br>
+            
+            <i>Zhang,S, Caro, R, Serra,X. 2015. Predicting pairwise pitch contour relations based on linguistic tone information in Beijing opera singing. Proc. of ISMIR 15.</i>
+            <br>
+            <br>
+            <i>Zhang, S, Caro, R, Serra,X,. 2014. Study of the similarity between linguistic tones and melodic pitch contours in Beijing Opera singing. Proc. ISMIR 14.</i>
+           </p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseJ2"  >
+          Jingju lyrics dataset <a class="btn btn-success" role="button" href="https://zenodo.org/record/1285632#.Xf-r6BdKh25">website</a>
+        </a>
+      </div>
+      <div id="collapseJ2" class="collapse" data-parent="#accordion">
+        <div class="card-body"><p    >
+            Comprehensive collection of lyrics of arias acquired through crawling online jingju lyrics database xikao, under CompMusic Project. <br><br>
+            
+            <i>Zhang,S., Caro,R, Serra,X. 2017. Understanding the expressive functions of jingju metrical patterns through lyrics text mining. Proc. ISMIR 17.</i>
+           </p>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseJ3"  >
+          ANNIS dataset <a class="btn btn-success" role="button" href="http://doi.org/10.5281/zenodo.3507129">website</a>
+        </a>
+      </div>
+      <div id="collapseJ3" class="collapse" data-parent="#accordion">
+        <div class="card-body"><p    >
+            ANNotation of Information Structure.
+            <br><br>
+            Thomas Krause; Weißenfels Benjamin; Tom R.; IrinaGlushanok; Martin Klotz; Shuo Zhang; Luke Gessler; Amir Zeldes; fab-bar; Stephan Druskat; adrianeboyd; egon w. stemle; Thomas N; Lari Lampen; Florian Petran (2019, October 18). korpling/ANNIS beta.3 (Version beta.3). Zenodo. http://doi.org/10.5281/zenodo.3507129
+           </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseJ4"  >
+          Multimodal Metaphor Corpus <a class="btn btn-success" role="button" href="https://zenodo.org/record/7217991#.Y6mqpuzMJqt">website</a>
+        </a>
+      </div>
+      <div id="collapseJ4" class="collapse" data-parent="#accordion">
+        <div class="card-body"><p    >
+            Multimodal Metaphor Corpus (collaboration with University of Helsinki).
+            <br><br>
+            Alnajjar,K, Hämäläinen,M, Zhang,S. Ring That Bell: A Corpus and Method for Multimodal Metaphor Detection in Videos. Proceedings of the Third Workshop on Figurative Language Processing (FigLang) at EMNLP 2022. Zenodo. 
+           </p>
+        </div>
+      </div>
+    </div>
+
+ <br><br>
+</div>
+
+    
 
 
+<br><br>
+</div>
+</div>
 </body>
 </html>
