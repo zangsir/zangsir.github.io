@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Optional: Background color for contrast */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px; /* Optional: Padding inside the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adding a shadow for a better look */
+}
+
+
+nav {
+    border-top: 0.5px solid #333;
+    border-bottom: 0.5px solid #333;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-list li {
+    float: left;
+}
+
+.nav-list li a {
+    color: rgb(153, 10, 10);
+    text-align: left;
+
+    padding: 5px 8px;
+}
+
+.nav-list li a:hover {
+    background-color: #eff0f1d3;
+}
+
+
+.nav-list li a.active {
+    background-color: #4CAF50; /* Green background for the active link */
+    color: rgb(179, 22, 22);}
