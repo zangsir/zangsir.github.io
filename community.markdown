@@ -4,18 +4,16 @@ title: Community
 permalink: /community/
 ---
 
-### Talks, teaching, conference tutorials
+## Recent talks, teaching, conference tutorials
 
-[Universitat Pompeu Fabra](https://www.upf.edu/web/mtg/home/-/asset_publisher/sWCQhjdDLWwE/content/seminar-by-shuo-zhang-on-better-audio-through-ai-research-at-bose-/maximized) (2024), Tufts University(2018-), University of Washington(2019), Spotify(2018), [NLP4MusA Workshop @ ISMIR 2020](https://sites.google.com/view/nlp4musa/invited-speakers?authuser=0), [Artificial Intelligence Festival by AI Accelerator Institute (2019),](https://festival.aiacceleratorinstitute.com/talks/natural-language-processing-for-music-information-technology/) AI Accelerator Summit Boston 2019, Global AI Conference Boston 2019, [RE:WORK Deep Learning Summit Boston](https://www.re-work.co/events/deep-learning-summit-boston-2019/speakers/shuo-zhang) , REWORK Conversational AI Summit, [NLP in MIR tutorial at ISMIR 16 NYC](https://wp.nyu.edu/ismir2016/event/tutorials/#nlp), Peking University, Tsinghua University, Fudan University, Communication University of China, Ningbo University, China Academy of Social Sciences, Shanghai Conservatory, China Conservatory, Central Conservatory, Tencent, Douban, Dolby Labs, Carnegie Library of Pittsburgh, Indiana University of Pennsylvania, MIT, etc.
+[Universitat Pompeu Fabra](https://www.upf.edu/web/mtg/home/-/asset_publisher/sWCQhjdDLWwE/content/seminar-by-shuo-zhang-on-better-audio-through-ai-research-at-bose-/maximized) (2024), Tufts University(2018-), MIT(2024), University of Washington(2019), Spotify(2018), [NLP4MusA Workshop @ ISMIR 2020](https://sites.google.com/view/nlp4musa/invited-speakers?authuser=0), [Artificial Intelligence Festival by AI Accelerator Institute (2019),](https://festival.aiacceleratorinstitute.com/talks/natural-language-processing-for-music-information-technology/) AI Accelerator Summit Boston 2019, [Global AI Conference Boston 2019](https://www.globalbigdataconference.com/boston/global-artificial-intelligence-conference-116/speaker-details/shuo-zhang-93476.html), RE:WORK Deep Learning Summit Boston 2019, REWORK Conversational AI Summit 2021, [NLP in MIR tutorial at ISMIR 16 NYC](https://wp.nyu.edu/ismir2016/event/tutorials/#nlp), Peking University(2015), Tsinghua University(2015), Fudan University(2015), Communication University of China(2015), Ningbo University(2015), China Academy of Social Sciences(2015), Shanghai Conservatory(2015), China Conservatory(2015), Central Conservatory(2015), Tencent(2015), Douban(2015), Dolby Labs(2015), Carnegie Library of Pittsburgh(2009), Indiana University of Pennsylvania(2008), etc.
 
-### **Peer reviews**
+## Peer reviews
 
-EURASIP Journal on Audio, Speech, and Music Processing, Glossa, EUSIPCO, ICASSP, ISMIR, DCASE, ACM-Multimedia, IEEE-MMSP, WASPPA, NLP4MusA, ACL, NAACL, COLM, EACL, EMNLP, ECNLP (Workshop), NLP4DH, etc.
+EURASIP Journal on Audio, Speech, and Music Processing, Glossa, EUSIPCO, ICASSP, ISMIR, DCASE, ACM-Multimedia, [IEEE Xplore](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9414968), IEEE-MMSP, WASPPA, NLP4MusA, ACL, NAACL, COLM, EACL, EMNLP, ECNLP (Workshop), NLP4DH, etc.
 
-### **Services**
+## Services
 
-Co-Chair of Industrial Liaisons, [DCASE Workshop (2021-2023)](https://dcase.community/workshop2021/organizers)
-
-Advisor, [Co-Design of Context Aware Trustworthy Audio Capture (UKRI)](https://tas.ac.uk/research-projects-2022-23/co-design-of-context-aware-trustworthy-audio-capture/)
-
-Committee, [Cátedra UPF-BMAT en IA y Música](https://www.upf.edu/web/mtg/catedra-ia-musica)
+- Co-Chair of Industrial Liaisons, [DCASE Workshop (2021-2023)](https://dcase.community/workshop2021/organizers)
+- Industry Advisor, [Co-Design of Context Aware Trustworthy Audio Capture (UKRI)](https://tas.ac.uk/research-projects-2022-23/co-design-of-context-aware-trustworthy-audio-capture/)
+- Scientific Committee, [Cátedra UPF-BMAT en IA y Música (Spain)](https://www.upf.edu/web/mtg/catedra-ia-musica)
