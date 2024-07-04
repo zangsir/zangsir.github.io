@@ -7,4 +7,4 @@ image: /assets/images/GMklqlIW8AAYUN3.jpeg
 ---
 ![alt text]({{page.image | relative_url}})
 
-[link](https://www.upf.edu/en/web/mtg/news/-/asset_publisher/WM181VyAQipW/content/seminar-by-shuo-zhang-on-better-audio-through-ai-research-at-bose-/maximized)
+[link to the event at MTG, UPF website](https://www.upf.edu/en/web/mtg/news/-/asset_publisher/WM181VyAQipW/content/seminar-by-shuo-zhang-on-better-audio-through-ai-research-at-bose-/maximized)
