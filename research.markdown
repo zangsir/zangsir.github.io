@@ -20,3 +20,14 @@ permalink: /research/
 13. Zeldes,A, Zhang, S. When Schemas Change Rules Help : A Configurable Approach to Coreference beyond OntoNotes. In: [Proceedings of the NAACL2016 Workshop on Coreference Resolution Beyond OntoNotes (CORBON).](http://aclweb.org/anthology/W/W16/#0700) Association for Computational Linguistics, San Diego, CA, June 2016. [[ACL Anthology](https://www.aclweb.org/anthology/W16-0713/)].
 14. Zhang,S, Caro, R, Serra,X. Predicting pairwise pitch contour relations based on linguistic tone information in Beijing opera singing. [Proceedings of the 16th International Society for Music Information Retrieval (ISMIR) conference](http://dblp.uni-trier.de/db/conf/ismir/ismir2015.html), Malaga, Spain, October 26th-30th, 2015.  [[mtg](http://mtg.upf.edu/node/3322)]
 15. Zhang, S, Caro, R, Serra,X. Study of the similarity between linguistic tones and melodic pitch contours in Beijing Opera singing. [Proceedings of The 15th International Society for Music Information Retrieval (ISMIR) Conference, pp.345-348](http://dblp.uni-trier.de/db/conf/ismir/ismir2014.html). Taiwan, October, 27-31 2014. [[mtg](http://mtg.upf.edu/node/3018)]
+
+# US patents (selected) filed with Bose
+- Personalized nearby voice detection system
+- Wearable device with whisper voice input
+- Spatialized Voice Assistant
+- Systems and Methods for AR Content Harvesting and Information Extraction
+- Hearing Augmentation and Wearable System with Localized Feedback
+- Ambient noise management to facilitate user awareness and interaction
+- Source separation based speech enhancement
+- Recovery of Voice Audio Quality Using a Deep Learning Model
+- Intelligent Speech or Dialogue Enhancement
