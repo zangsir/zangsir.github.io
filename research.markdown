@@ -5,7 +5,7 @@ permalink: /research/
 ---
 # Publications
 
-1. Tornike Karchkhadze, Hassan Salami Kavaki, Mohammad Rasool Izadi, Bryce Irvin, Mikolaj Kegler, Ari Hertz, Shuo Zhang, Marko Stamenovic. Latent CLAP Loss for Better Foley Sound Synthesis. Proc. EUSIPCO 2024. (to appear) [[preprint](https://arxiv.org/abs/2403.12182)] 
+1. Tornike Karchkhadze, Hassan Salami Kavaki, Mohammad Rasool Izadi, Bryce Irvin, Mikolaj Kegler, Ari Hertz, Shuo Zhang, Marko Stamenovic. Latent CLAP Loss for Better Foley Sound Synthesis. Proc. EUSIPCO 2024.[[eusipco](https://eurasip.org/Proceedings/Eusipco/Eusipco2024/pdfs/0000351.pdf)] [[preprint](https://arxiv.org/abs/2403.12182)] 
 2. Mohammad Rasool Izadi, Yujia Yan, Shuo Zhang, Robert Stevenson. Towards Optimal Voice Disentanglement With Weak Supervision. Proc. ICASSP 2024.[[IEEE Explore](https://ieeexplore.ieee.org/document/10447670)][related: [poster at SANE 2022](https://www.saneworkshop.org/sane2022/)]
 3. Bryce Irvin, Sile Yin, Shuo Zhang, Marko Stamenovic.A Fullband Neural Network For Audio Packet Loss Concealment. In The ICASSP 2024 Audio Deep Packet Loss Concealment Grand Challenge.
 4. J. Williams, T. Azim, A. -M. Piskopani, A. Chamberlain and S. Zhang. "Socio-Technical Trust For Multi-Modal Hearing Assistive Technology," 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW), Rhodes Island, Greece, 2023, pp. 1-5. [[IEEE Explore](https://ieeexplore.ieee.org/document/10193586)]
