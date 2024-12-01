@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 ---
-# Publications and conference presentations
+# Publications and conference presentations (selected)
 
 1. Tornike Karchkhadze, Mohammad Rasool Izadi, Shuo Zhang. Improving Source Extraction with Diffusion and Consistency Models. Audio Imagination: NeurIPS 2024 Workshop. [[OpenReview](https://openreview.net/forum?id=nskR7tWE6z)]
 2. Aleksandra Ma, Sile Yin, Shuo Zhang. Audio-Visual Target Speaker Speech Enhancement. [SANE 2024 Workshop](https://www.saneworkshop.org/sane2024/), Cambridge, MA. 
