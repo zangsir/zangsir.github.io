@@ -12,7 +12,8 @@ permalink: /community/
 
 EURASIP Journal on Audio, Speech, and Music Processing (journal); Glossa(journal); EUSIPCO, ICASSP, ISMIR, DCASE, ACM-Multimedia, ACM-Multimedia Asia, [IEEE Xplore](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9414968), IEEE-MMSP, WASPPA, NLP4MusA, ACL, NAACL, COLM, EACL, EMNLP, ECNLP (Workshop), NLP4DH, etc.
 
-## Services (recent)
+## Services selected
 
-- Co-Chair of Industrial Liaisons, [DCASE Workshop (2021-2023)](https://dcase.community/workshop2021/organizers)
+- Co-Chair of Industrial Liaisons, [DCASE Workshop 2021(Spain), 2022(France), 2023(Finland), 2025(Spain)](https://dcase.community/workshop2021/organizers)
 - Scientific Committee, [Cátedra UPF-BMAT en IA y Música (Spain)](https://www.upf.edu/web/mtg/catedra-ia-musica)
+- Advisor, UKRI TAS Hub/University of Southampton
