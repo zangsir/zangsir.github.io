@@ -14,6 +14,6 @@ EURASIP Journal on Audio, Speech, and Music Processing (journal); Glossa(journal
 
 ## Services selected
 
-- Co-Chair of Industrial Liaisons, [DCASE Workshop 2021(Spain), 2022(France), 2023(Finland), 2025(Spain)](https://dcase.community/workshop2021/organizers)
+- Co-Chair of Industrial Liaisons, [DCASE (Detection and Classification of Acoustic Scenes and Events) Workshop 2021(Spain)](https://dcase.community/workshop2021/organizers), 2022(France), 2023(Finland), 2025(Spain)
 - Scientific Committee, [Cátedra UPF-BMAT en IA y Música (Spain)](https://www.upf.edu/web/mtg/catedra-ia-musica)
 - Advisor, UKRI TAS Hub/University of Southampton
