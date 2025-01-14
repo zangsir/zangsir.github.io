@@ -10,7 +10,7 @@ permalink: /community/
 
 ## Invited peer reviews and program committees
 
-EURASIP Journal on Audio, Speech, and Music Processing (journal); Glossa(journal); EUSIPCO, ICASSP, ISMIR, DCASE, ACM-Multimedia, ACM-Multimedia Asia, [IEEE Xplore](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9414968), IEEE-MMSP, WASPPA, NLP4MusA, ACL, NAACL, COLM, EACL, EMNLP, ECNLP (Workshop), NLP4DH, etc.
+EURASIP Journal on Audio, Speech, and Music Processing (journal); Glossa(journal); EUSIPCO, ICASSP, ISMIR, DCASE, ACM-Multimedia, ACM-Multimedia Asia, [IEEE Xplore](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9414968), IEEE-MMSP, WASPPA, NLP4MusA, ACL, NAACL, COLM, EACL, EMNLP, ECNLP (Workshop), NLP4DH, ICSM, etc.
 
 ## Services selected
 
