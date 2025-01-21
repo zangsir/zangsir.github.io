@@ -10,6 +10,8 @@ Shuo Zhang is a third-generation erhu virtuoso at the intersection of two lines 
 
 Shuo has been playing erhu since he was 9. He has performed and taught erhu in China, Singapore, Thailand and the US. In the US, Shuo has lectured and performed Chinese erhu music at University of Pittsburgh, Duquesne University, Indiana University of Pennsylvania, Carnegie Library of Pittsburgh, Phipps Conservatory, and the Columbus Asian Music Festival. In 2019, he co-taught a erhu masterclass with his father Zhang Yuming at Hamlin University in St.Paul, MN.  More recently, he performed with pianist Sabrina Svec and Henry Lau, the Chinese Canadian pop icon violinist and Bose Global Ambassador, at the Bose corporate headquarter in Framingham, MA in 2023. As a former researcher at the Music Technology Group, Universitat Pompeu Fabra in Barcelona, Shuo has published internationally and lectured extensively in China on his research in the computational modeling of Chinese music.   
 
+An avid Western classical musician, Shuo co-organizes a classical concert series at Bose, and where he regularly performs on the piano.
+
 (Image credit: Maisie O’Brien)
 
 ## Brief bio:
