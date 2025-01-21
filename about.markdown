@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About: AI"
+title: About
 permalink: /about/
 image: /assets/images/s4.png
 ---
