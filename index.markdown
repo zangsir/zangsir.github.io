@@ -4,4 +4,4 @@
 
 layout: home
 ---
-Welcome to Shuo Zhang's personal website!
+Welcome to my personal website!
