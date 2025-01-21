@@ -4,4 +4,4 @@
 
 layout: home
 ---
-Welcome to my homepage, where I share things about machine learning, deep learning, AI, music and audio technology, NLP, academia and industry, classical music, cat, Spain, etc. 
+Welcome to Shuo Zhang's personal website!
