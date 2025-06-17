@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "AI event at RAI-UK and University of Southampton"
+date:   2025-06-16
+categories: news
+
+---
+On June 10 and 11, I participated in two events in Southampton and London, hosted by Prof Jennifer Williams of University of Southampton. 
+
+
+[RAI UK workshop](https://www.tickettailor.com/events/universityofsouthampton8/1665397)
+[Southampton seminar](https://www.eventbrite.com/e/kaleidoscope-seminar-international-hot-topics-in-artificial-intelligence-tickets-1387958413979?aff=oddtdtcreator)
