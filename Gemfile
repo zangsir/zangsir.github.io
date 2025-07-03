@@ -37,3 +37,4 @@ gem "webrick", "~> 1.8"
 
 gem "jekyll-theme-minimal"
 gem "jekyll-theme-architect"  
+
