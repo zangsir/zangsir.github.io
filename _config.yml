@@ -27,7 +27,8 @@ url: "zangsir.github.io" # the base hostname & protocol for your site, e.g. http
 linkedin_username: shuo-zhang-ba942a14
 
 # Build settings
-theme: minima
+# theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
