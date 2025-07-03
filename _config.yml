@@ -28,7 +28,7 @@ linkedin_username: shuo-zhang-ba942a14
 
 # Build settings
 # theme: minima
-theme: jekyll-theme-slate
+theme: minima
 plugins:
   - jekyll-feed
 
