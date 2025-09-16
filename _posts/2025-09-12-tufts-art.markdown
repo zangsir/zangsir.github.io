@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Several articles on Tufts students"
+date:   2025-09-12
+categories: news
+
+---
+
+Recent articles from Tufts about my teaching and my students in AI and ML.
+
+[Using AI to detect AI](https://asegrad.tufts.edu/news-events/news/using-ai-detect-ai)
+
+[A passion for problem solving](https://asegrad.tufts.edu/news-events/news/passion-problem-solving)
+
+[Data is booming](https://asegrad.tufts.edu/news-events/news/data-booming)
