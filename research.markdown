@@ -5,7 +5,7 @@ permalink: /research/
 ---
 # Publications and conference presentations (selected)
 
-1. Aleksandra Ma, Sile Yin, Li-Chia Yang, Shuo Zhang. Real-Time System for Audio-Visual Target Speech Enhancement. WASPAA 2025 demo track paper. 
+1. Aleksandra Ma, Sile Yin, Li-Chia Yang, Shuo Zhang. Real-Time System for Audio-Visual Target Speech Enhancement. WASPAA 2025 demo track paper. [[preprint]](https://arxiv.org/pdf/2509.20741)
 2. Aleksandra Ma, Sile Yin, Li-Chia Yang, Shuo Zhang. Real-Time Audio-Visual Speech Enhancement Using Pre-trained Visual Representations. Proc. Interspeec 2025, Rotterdam, The Netherlands. [[preprint](https://arxiv.org/abs/2507.21448)] 
 3. Kelvin Yang, Shuo Zhang, Jeff Huang. Toward noise-robust whisper keyword spotting on headphones with in-earcup microphone and curriculum learning. Proc. ICASSP 2025. [[IEEE](https://ieeexplore.ieee.org/abstract/document/10890176)][full paper retracted]
 4. Tornike Karchkhadze, Mohammad Rasool Izadi, Shuo Zhang. Improving Source Extraction with Diffusion and Consistency Models. Audio Imagination: NeurIPS 2024 Workshop. [[OpenReview](https://openreview.net/forum?id=nskR7tWE6z)][[preprint](https://arxiv.org/pdf/2412.06965)]
