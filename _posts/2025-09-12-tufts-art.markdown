@@ -13,3 +13,5 @@ Recent articles from Tufts about my teaching and my students in AI and ML.
 [A passion for problem solving](https://asegrad.tufts.edu/news-events/news/passion-problem-solving)
 
 [Data is booming](https://asegrad.tufts.edu/news-events/news/data-booming)
+
+[Engineering Enduring Infrastructure](https://asegrad.tufts.edu/news-events/news/engineering-enduring-infrastructure)
