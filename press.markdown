@@ -4,7 +4,7 @@ title: Press
 permalink: /press/
 image: /assets/images/Shuo-6-web-crop.jpg
 ---
-![alt text]({{page.image | relative_url}})
+![alt text]({{page.image | relative_url}}){: width="250" }
 
 Shuo Zhang is a third-generation erhu virtuoso at the intersection of two lines of Chinese music heritage: on the one hand, his grandfather, Zhang Shao, was a founding father of modern erhu in China, and his father, Zhang Yuming, is a prominent erhu maestro and educator in Singapore. On the other hand, his academic lineage in Chinese music goes back to the late Rulan Chao Pian, one of the first tenured Asian female professors in Harvard history, who specialized in Chinese music theory. Shuo’s mentor, Bell Yung, was a student of Professor Pian at Harvard, and he is the world’s leading expert on Chinese music today. 
 
