@@ -3,8 +3,7 @@ layout: post
 title:  "Visit to MTG"
 date:   2025-11-06
 categories: news
-image: /assets/images/IMG_2269.jpeg
-
+image: /assets/images/IMG_2269.jpg
 ---
 ![alt text]({{page.image | relative_url}})
 
