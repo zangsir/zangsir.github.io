@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Visit to MTG"
+date:   2025-11-06
+categories: news
+
+---
+
+Recently I spent two weeks being a visiting researcher back at Music Technology Group, Universitat Pompeu Fabra in Barcelona, under Prof Xavier Serra. During this time I occupied office 55.312, which I shared with Panagiota Astara (Noda, Freesound intern from Greece) and [Xavier Lizarraga](https://xavierlizarraga.weebly.com), research engineer at MTG and creator of [Audio Merge](https://audio-merge.com). I also chatted with many (ex and current) MTG students and researchers including Alastair Porter, Frederic Font, Pedro Ramoneda, R. Oguz Araz, Satyajeet Prabhu, Martin Rocamora, Dmitry Bogdanov, Lonce Wyse, Andrea Poltronieri, Panagiota Anastasopoulou, Hyon Kim, Arjun Bahuguna, Federico De Lellis, Sergio Oramas, Marius Miron, and many others. 
+
+During my visit I served on the jury of the PhD thesis defense of Benno Weck on Oct. 27, together with Prof. Romain Serizel (University of Lorraine, France), and Martin Rocamora (MTG, UPF). 
+
+On Oct.28, I attended the Freesound 20th anniversary event. 
+
+On Oct.29-31, I attended the DCASE 2025 workshop, where I had extensive conversations with Nicolas Turpault, CEO of Sonaide. It was also a pleasure to meet my dear colleagues Mikolag Kegler and Owen Ackerman. 
