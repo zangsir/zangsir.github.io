@@ -5,6 +5,7 @@ permalink: /research/
 ---
 # Publications and conference presentations (selected)
 
+1. Xiaoliang Wu, Rui Chu, Sarah Kiden, Jennifer Williams, Shuo Zhang, Alice Mello. Explainability in Speech AI: Challenges and Research Direction. Proc. AIxMM2026.
 1. Aleksandra Ma, Sile Yin, Li-Chia Yang, Shuo Zhang. Real-Time System for Audio-Visual Target Speech Enhancement. WASPAA 2025 demo track paper. [[preprint]](https://arxiv.org/pdf/2509.20741)
 1. Jennifer Williams, Tayyaba Azim, Anna-Maria Piskopani, Richard Hyde, Shuo Zhang, Zack Hodari.Public perceptions of speech technology trust in the United Kingdom.Journal of Computer Speech & Language, 2025, 101884,
 ISSN 0885-2308, [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0885230825001093).
