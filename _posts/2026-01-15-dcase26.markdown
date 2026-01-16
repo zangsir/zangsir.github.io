@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "DCASE 2026 Workshop in Boston"
+date:   2026-01-15
+categories: news
+
+---
+
+I am hosting DCASE Workshop 2026 in Boston together with Prof Anna Huang and Prof Paris Smaragdis of MIT. Initial announcement is posted on [DCASE website](https://dcase.community/articles/location-for-dcase-2026-workshop). The workshop is tentatively co-located with SANE 2026 workshop at the same location in MIT and in the same week. More details coming soon.  
+
