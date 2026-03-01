@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Press
-permalink: /press/
+title: Music
+permalink: /music/
 ---
 <img src="/assets/images/Shuo-6-web-crop.jpg" class="small-img">
 
