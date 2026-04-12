@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "DCASE 2026 Workshop in Boston Announced"
+date:   2026-04-12
+categories: news
+
+---
+
+The 11th Workshop on Detection and Classification of Acoustic Scenes and Events, [DCASE 2026](https://dcase.community/workshop2026/), will be held in Boston on 28-29 October. It is co-organized by Bose Corporation, MIT, and Tufts University.
+
+As in previous years, the workshop is organized in conjunction with the DCASE challenge. We aim to bring together researchers from many different universities, research organizations and companies with an interest in the topic, and provide the opportunity for scientific exchange of ideas and opinions.
+
+The technical program of DCASE will include invited speakers on the topic of computational everyday sound analysis and recognition, and oral and poster presentations of accepted papers.
+
+DCASE Workshop 2026 will be co-located with the BioDCASE Workshop (date and format TBD), which focuses on Bio-acoustics, and the SANE Workshop (October 30 at MIT), which is a one-day event gathering researchers and students in speech and audio from the Northeast of the American continent. The SANE Workshop alternates between Boston and New York City every year. 
+
