@@ -1,0 +1,38 @@
+---
+---
+
+@import "minima";
+
+.wrapper {
+  max-width: 100% !important;
+  padding: 0 2rem;
+}
+
+.post-content {
+  max-width: 100% !important;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 1.7;
+  /* test marker */
+  body { outline: 5px solid red; }
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.post-content img {
+  max-width: 70%;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+.small-img {
+  width: 30%;
+  display: block;
+  margin: 1rem auto;
+}
