@@ -5,8 +5,8 @@ permalink: /research/
 ---
 # Publications and conference presentations (selected)
 
-1. Ishmam Khan, Sindhuja Thogarrati, Shuo Zhang. StoicLLM: Preference Optimization for Philosophical Alignment in Small Language Models. Proceedings of NLP4DH 2026 at ACL 2026. Association for Computational Linguistics: San Diego, CA, July 2-7, 2026. [preprint](https://arxiv.org/abs/2605.11483)
-1. Xiaoliang Wu, Rui Chu, Sarah Kiden, Jennifer Williams, Shuo Zhang, Alice Mello. Explainability in Speech AI: Challenges and Research Direction. Proc. ICSC2026 (AIxMM).[IEEE](https://ieeexplore.ieee.org/abstract/document/11486457)
+1. Ishmam Khan, Sindhuja Thogarrati, Shuo Zhang. StoicLLM: Preference Optimization for Philosophical Alignment in Small Language Models. Proceedings of NLP4DH 2026 at ACL 2026. Association for Computational Linguistics: San Diego, CA, July 2-7, 2026. [[preprint](https://arxiv.org/abs/2605.11483)]
+1. Xiaoliang Wu, Rui Chu, Sarah Kiden, Jennifer Williams, Shuo Zhang, Alice Mello. Explainability in Speech AI: Challenges and Research Direction. Proc. ICSC2026 (AIxMM).[[IEEE](https://ieeexplore.ieee.org/abstract/document/11486457)]
 1. Aleksandra Ma, Sile Yin, Li-Chia Yang, Shuo Zhang. Real-Time System for Audio-Visual Target Speech Enhancement. WASPAA 2025 demo track paper. [[preprint]](https://arxiv.org/pdf/2509.20741)
 1. Jennifer Williams, Tayyaba Azim, Anna-Maria Piskopani, Richard Hyde, Shuo Zhang, Zack Hodari.Public perceptions of speech technology trust in the United Kingdom.Journal of Computer Speech & Language, 2025, 101884,
 ISSN 0885-2308, [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0885230825001093).
