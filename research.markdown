@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 # Publications and conference presentations (selected)
-
+1. Tornike Karchkhadze, Mohammad Rasool Izadi, Shuo Zhang, Shlomo Dubnov. Improving Music Source Separation With Diffusion and Consistency Refinement. Proc. ISMIR 2026. (Accepted) 
 1. Ningyuan Yang, Sile Yin, Li-Chia Yang, Bryce Irvin, Xiao Quan, Marko Stamenovic, Shuo Zhang. FSD50K-Solo: Automated Curation of Single-Source Sound Events. Proceedings of EUSIPCO 2026, Bruges, Belgium, 2026. [[preprint](https://arxiv.org/abs/2605.13931)]
 1. Ishmam Khan, Sindhuja Thogarrati, Shuo Zhang. StoicLLM: Preference Optimization for Philosophical Alignment in Small Language Models. Proceedings of NLP4DH 2026 at ACL 2026. Association for Computational Linguistics: San Diego, CA, July 2-7, 2026. [[preprint](https://arxiv.org/abs/2605.11483)]
 1. Sile Yin, Shuo Zhang, Marko Stamenovic. Multimodal artificial intelligence based sensing for hearables. Presentation at Acoustic Society of America Annual Meeting Special Session on AI and Electro-acoustic Transducers, May 2026, Philadelphia, PA.
