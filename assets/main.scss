@@ -1,6 +1,11 @@
 ---
 ---
 
+// Make minima's content column fill the viewport instead of capping at
+// its default 800px. Set before the import since minima declares this
+// with `!default`, so this is the supported way to override it.
+$content-width: 100%;
+
 @import "minima";
 
 
