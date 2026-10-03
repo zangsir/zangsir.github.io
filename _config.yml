@@ -27,6 +27,11 @@ url: "https://zangsir.github.io" # the base hostname & protocol for your site, e
 linkedin_username: shuo-zhang-ba942a14
 google_scholar_username: aWZi4kkAAAAJ
 
+header_pages:
+  - research.markdown
+  - community.markdown
+  - music.markdown
+
 
 
 #remote_theme: pages-themes/hacker@v0.2.0

@@ -1,0 +1,20 @@
+<footer class="site-footer">
+  <div class="wrapper site-footer-inner">
+    <span class="footer-line">&copy; {{ site.time | date: "%Y" }} {{ site.title | escape }}</span>
+    <ul class="footer-links">
+      {%- if site.email -%}
+      <li><a href="mailto:{{ site.email }}">email</a></li>
+      {%- endif -%}
+      {%- if site.linkedin_username -%}
+      <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">linkedin</a></li>
+      {%- endif -%}
+      {%- if site.google_scholar_username -%}
+      <li><a href="https://scholar.google.com/citations?user={{ site.google_scholar_username }}" target="_blank" rel="noopener">scholar</a></li>
+      {%- endif -%}
+      {%- if site.github_username -%}
+      <li><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">github</a></li>
+      {%- endif -%}
+      <li><a href="{{ "/feed.xml" | relative_url }}">rss</a></li>
+    </ul>
+  </div>
+</footer>

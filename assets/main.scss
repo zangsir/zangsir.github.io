@@ -1,12 +1,277 @@
 ---
 ---
 
-@import "minima";
+/* ---------------------------------------------------------------
+   A small, full-width theme with a terminal / lab-notebook feel.
+   No framework import on purpose -- written from scratch so there's
+   no commercial-theme chrome (cards, shadows, rounded hero banners)
+   left over to fight against.
+----------------------------------------------------------------*/
 
-
-body {
-  font-size: 20px;
-
+:root {
+  --bg: #faf9f6;
+  --bg-raised: #f1efe8;
+  --fg: #1b1b18;
+  --muted: #6b6a62;
+  --border: #ddd9cd;
+  --accent: #1f7a4d;
+  --accent-dim: #1f7a4d99;
+  --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --content-width: 1180px;
+  --prose-width: 72ch;
 }
 
+* { box-sizing: border-box; }
 
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  body { font-size: 16px; }
+  .wrapper { padding: 0 1.25rem; }
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-dim);
+}
+
+a:hover { border-bottom-color: var(--accent); background: var(--bg-raised); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--mono);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+p { margin: 0 0 1.1em; }
+
+.post-content > p,
+.home-intro > p {
+  max-width: var(--prose-width);
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed var(--border);
+  margin: 2.5rem 0;
+}
+
+/* ---------------- header ---------------- */
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.site-header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.site-title {
+  font-family: var(--mono);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--fg);
+  border-bottom: none;
+}
+
+.site-title:hover { background: none; border-bottom: none; color: var(--accent); }
+
+.site-title .prompt { color: var(--accent); margin-right: 0.15em; }
+
+.site-title .cursor {
+  color: var(--accent);
+  animation: blink 1.1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
+  font-family: var(--mono);
+  font-size: 0.95rem;
+}
+
+.site-nav .page-link {
+  color: var(--muted);
+  border-bottom: 1px solid transparent;
+}
+
+.site-nav .page-link::before { content: "./"; color: var(--border); }
+
+.site-nav .page-link:hover {
+  color: var(--accent);
+  background: none;
+  border-bottom-color: var(--accent-dim);
+}
+
+/* ---------------- main content ---------------- */
+
+.page-content { padding: 3rem 0 4rem; }
+
+.page-heading, .post-title {
+  font-size: 1.6rem;
+  margin: 0 0 1.5rem;
+}
+
+.post-title .hash, .page-heading .hash { color: var(--accent); }
+
+.post-meta {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.section-heading {
+  font-size: 1.05rem;
+  margin-top: 3rem;
+  color: var(--muted);
+}
+
+.section-heading .hash { color: var(--accent); }
+
+/* home */
+
+.home-intro img {
+  float: left;
+  width: 190px;
+  margin: 0.2rem 2rem 1rem 0;
+  border: 1px solid var(--border);
+  filter: grayscale(15%);
+}
+
+.home-intro::after { content: ""; display: block; clear: both; }
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--border);
+}
+
+.post-list li {
+  display: flex;
+  gap: 1.25rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--border);
+  align-items: baseline;
+}
+
+.post-list .post-meta {
+  flex: 0 0 auto;
+  width: 7.5em;
+}
+
+.rss-subscribe {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 1.5rem;
+}
+
+/* research / publication lists */
+
+.post-content ol, .post-content ul {
+  padding-left: 1.4em;
+}
+
+.post-content ol li, .post-content ul li {
+  margin-bottom: 0.9em;
+}
+
+.post-content ol { font-variant-numeric: tabular-nums; }
+
+/* images */
+
+.post-content img {
+  max-width: 70%;
+  display: block;
+  margin: 1.5rem auto;
+  border: 1px solid var(--border);
+}
+
+.small-img {
+  width: 220px;
+  display: block;
+  margin: 0 0 1.5rem;
+  border: 1px solid var(--border);
+}
+
+/* code */
+
+code, pre {
+  font-family: var(--mono);
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+}
+
+code { padding: 0.1em 0.35em; font-size: 0.9em; }
+
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+pre code { border: none; padding: 0; background: none; }
+
+.back-link {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+}
+
+/* ---------------- footer ---------------- */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.site-footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a { color: var(--muted); border-bottom: 1px solid transparent; }
+.footer-links a:hover { color: var(--accent); background: none; border-bottom-color: var(--accent-dim); }
