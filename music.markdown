@@ -15,3 +15,6 @@ Shuo is also a multi-instrumentalist who regularly performs on classical piano a
 
 ## Short bio
 Shuo Zhang is a third-generation erhu virtuoso who grew up in a prominent musical family in Beijing, China. As a child, he trained with his grandfather Zhang Shao and his father Zhang Yuming, both of whom are internationally renowned erhu maestros. Since 2002, Shuo has taught and performed erhu in China, Singapore, Thailand, and the US. 
+
+## Links
+- [Bell Yung Music Scores](https://zangsir.github.io/bell-yung-music-scores/)
